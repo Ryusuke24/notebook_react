@@ -1,0 +1,62 @@
+@media (min-width: 768px) {
+  .main {
+    height: calc(100vh - 180px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    gap: 5px;
+  }
+
+  .menuSection {
+    margin-top: 10px;
+    height: 100%;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: #212124;
+
+    flex: 1 0 auto;
+  }
+
+  .noteSection {
+    margin-top: 10px;
+    height: 100%;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: #212124;
+    flex: 1 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    height: calc(100vh - 180px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    gap: 5px;
+  }
+
+  .menuSection {
+    margin-top: 10px;
+    height: 100%;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: #212124;
+    flex: 2 1 auto;
+  }
+
+  .noteSection {
+    margin-top: 10px;
+    height: 100%;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: #212124;
+    flex: 1 0 auto;
+  }
+}
