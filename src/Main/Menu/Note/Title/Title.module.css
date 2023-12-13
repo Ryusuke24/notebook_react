@@ -1,0 +1,13 @@
+@media (min-width: 769px) {
+  .noteTitle {
+    font-size: x-large;
+    font-weight: 700;
+    align-self: center;
+  }
+}
+@media (max-width: 768px) {
+  .noteTitle {
+    font-size: large;
+    font-weight: 600;
+  }
+}

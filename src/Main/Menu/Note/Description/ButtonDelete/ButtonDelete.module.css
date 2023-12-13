@@ -1,0 +1,29 @@
+@media (min-width: 769px) {
+  .buttonDelete {
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+  }
+
+  .buttonDelete:hover {
+    background-color: rgb(190, 0, 0);
+    color: black;
+  }
+}
+@media (max-width: 768px) {
+  .buttonDelete {
+    padding: 5px 10px 5px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+  }
+
+  .buttonDelete:hover {
+    background-color: rgb(190, 0, 0);
+    color: black;
+  }
+}

@@ -1,6 +1,18 @@
-.footer {
-  margin-top: 10px;
-  color: grey;
-  background-color: #212124;
-  flex: 0 0 auto;
+@media (max-width: 768px) {
+  .footer {
+    height: 150px;
+    margin-top: 10px;
+    color: grey;
+    background-color: #212124;
+    flex: 0 0 auto;
+  }
+}
+@media (min-width: 769px) {
+  .footer {
+    height: 100px;
+    margin-top: 10px;
+    color: grey;
+    background-color: #212124;
+    flex: 0 0 auto;
+  }
 }

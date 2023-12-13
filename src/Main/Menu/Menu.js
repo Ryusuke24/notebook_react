@@ -1,12 +1,11 @@
 import React from "react";
 import style from "./Menu.module.css";
+import Note from "./Note/Note";
+import { nanoid } from "nanoid";
 
-function Menu({ notes }) {
+function Menu({ notes, setActive }) {
   let res = notes.map(note => (
-    <li key={note.id} className={style.note}>
-      <span className={style.noteTitle}>{note.title}</span>
-      <span className={style.noteDate}>{note.date}</span>
-    </li>
+    <Note key={note.id} note={note} setActive={setActive}></Note>
   ));
   return <ul className={style.menuSection}>{res}</ul>;
 }

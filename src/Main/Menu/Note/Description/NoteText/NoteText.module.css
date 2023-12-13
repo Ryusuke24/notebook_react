@@ -1,0 +1,14 @@
+@media (min-width: 769px) {
+  .noteText {
+    font-size: small;
+    font-weight: 300;
+    align-self: center;
+  }
+}
+@media (max-width: 768px) {
+  .noteText {
+    font-size: small;
+    font-weight: 300;
+    align-self: center;
+  }
+}

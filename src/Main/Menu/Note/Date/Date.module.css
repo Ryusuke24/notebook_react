@@ -1,0 +1,14 @@
+@media (min-width: 769px) {
+  .noteDate {
+    align-self: flex-end;
+    font-size: smaller;
+    font-weight: 300;
+  }
+}
+@media (max-width: 768px) {
+  .noteDate {
+    align-self: flex-end;
+    font-size: smaller;
+    font-weight: 300;
+  }
+}

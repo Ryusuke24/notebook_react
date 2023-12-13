@@ -1,0 +1,76 @@
+@media (max-width: 768px) {
+  .note {
+    display: flex;
+    flex-flow: column wrap;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: auto;
+    max-width: 150px;
+    padding: 5px 5px 5px 5px;
+  }
+
+  .note__active {
+    background-color: white;
+    color: #000;
+    display: flex;
+    flex-flow: column wrap;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: auto;
+    max-width: 150px;
+    padding: 5px 5px 5px 5px;
+  }
+
+  /* .buttonEdit {
+    padding: 5px 10px 5px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: orange;
+  }
+
+  .buttonEdit:hover {
+    background-color: orange;
+    color: black;
+  } */
+}
+
+@media (min-width: 769px) {
+  .note {
+    display: flex;
+    flex-flow: column wrap;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+    max-width: 300px;
+    padding: 5px 5px 5px 5px;
+  }
+
+  .note__active {
+    background-color: white;
+    color: #000;
+    display: flex;
+    flex-flow: column wrap;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+    max-width: 250px;
+    padding: 5px 5px 5px 5px;
+  }
+
+  /* .buttonEdit {
+    width: 75px;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: orange;
+  }
+
+  .buttonEdit:hover {
+    background-color: orange;
+    color: black;
+  } */
+}
