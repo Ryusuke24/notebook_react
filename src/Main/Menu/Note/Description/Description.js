@@ -3,11 +3,15 @@ import style from "./Description.module.css";
 import ButtonDelete from "./ButtonDelete/ButtonDelete";
 import NoteText from "./NoteText/NoteText";
 
-function Description({ text }) {
+function Description({ text, index, deleteNote, isActive }) {
   return (
     <div className={style.description}>
       <NoteText text={text} />
-      <ButtonDelete />
+      {isActive ? (
+        <ButtonDelete index={index} deleteNote={deleteNote} />
+      ) : (
+        <></>
+      )}
     </div>
   );
 }

@@ -1,0 +1,30 @@
+@media (max-width: 768px) {
+  .okButton {
+    width: 70px;
+    height: 30px;
+
+    border: none;
+    border-radius: 10px;
+    color: black;
+    background-color: green;
+  }
+
+  .okButton:hover {
+    background-color: rgb(1, 99, 1);
+  }
+}
+
+@media (min-width: 769px) {
+  .okButton {
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    background-color: green;
+  }
+
+  .okButton:hover {
+    background-color: rgb(1, 99, 1);
+  }
+}

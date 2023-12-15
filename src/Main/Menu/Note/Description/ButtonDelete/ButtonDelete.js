@@ -1,9 +1,12 @@
 import React from "react";
 import style from "./ButtonDelete.module.css";
 
-function ButtonDelete() {
+function ButtonDelete({ index, deleteNote }) {
   return (
-    <button className={style.buttonDelete}>
+    <button
+      className={style.buttonDelete}
+      onClick={event => deleteNote(event, index)}
+    >
       <svg
         width="32px"
         height="32px"
@@ -12,22 +15,19 @@ function ButtonDelete() {
         xmlns="http://www.w3.org/2000/svg"
         fill="#000000"
       >
-        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+        <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
         <g
           id="SVGRepo_tracerCarrier"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         ></g>
         <g id="SVGRepo_iconCarrier">
-          {" "}
-          <title>delete</title> <desc>Created with Sketch Beta.</desc>{" "}
-          <defs> </defs>{" "}
           <g
             id="Page-1"
             stroke="none"
-            stroke-width="1"
+            strokeWidth="1"
             fill="none"
-            fill-rule="evenodd"
+            fillRule="evenodd"
           >
             {" "}
             <g

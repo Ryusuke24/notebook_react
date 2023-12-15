@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+  .cancelButton {
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    background-color: red;
+  }
+
+  .cancelButton:hover {
+    background-color: rgb(179, 1, 1);
+  }
+}
+
+@media (min-width: 769px) {
+  .cancelButton {
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    background-color: red;
+  }
+
+  .cancelButton:hover {
+    background-color: rgb(179, 1, 1);
+  }
+}

@@ -1,0 +1,30 @@
+@media (max-width: 768px) {
+  .clearButton {
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+  }
+
+  .clearButton:hover {
+    background-color: rgb(209, 209, 209);
+  }
+}
+
+@media (min-width: 769px) {
+  .clearButton {
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    padding-left: 15px;
+  }
+
+  .clearButton:hover {
+    background-color: rgb(209, 209, 209);
+  }
+}

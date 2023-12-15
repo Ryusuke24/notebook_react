@@ -9,79 +9,11 @@
     gap: 10px;
   }
 
-  .textarea {
-    height: 75%;
-    padding-left: 10px;
-    border: none;
-    border-radius: 10px;
-    resize: none;
-  }
-
-  .input {
-    height: 5%;
-    padding-left: 10px;
-    border: none;
-    border-radius: 10px;
-  }
-
   .saveButtons {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     gap: 10px;
-  }
-
-  .clearButton {
-    width: 70px;
-    height: 30px;
-    border: none;
-    border-radius: 10px;
-    background-color: white;
-    color: black;
-  }
-
-  .clearButton:hover {
-    background-color: rgb(209, 209, 209);
-  }
-
-  .createButton {
-    width: 70px;
-    height: 30px;
-    border: none;
-    border-radius: 10px;
-    background-color: white;
-    color: black;
-  }
-
-  .createButton:hover {
-    background-color: rgb(209, 209, 209);
-  }
-
-  .okButton {
-    width: 70px;
-    height: 30px;
-
-    border: none;
-    border-radius: 10px;
-    color: black;
-    background-color: green;
-  }
-
-  .okButton:hover {
-    background-color: rgb(1, 99, 1);
-  }
-
-  .cancelButton {
-    width: 70px;
-    height: 30px;
-    border: none;
-    border-radius: 10px;
-    color: black;
-    background-color: red;
-  }
-
-  .cancelButton:hover {
-    background-color: rgb(179, 1, 1);
   }
 }
 
@@ -96,22 +28,6 @@
     gap: 10px;
   }
 
-  .textarea {
-    height: 80%;
-    padding-top: 15px;
-    padding-left: 10px;
-    border: none;
-    border-radius: 10px;
-    resize: none;
-  }
-
-  .input {
-    height: 5%;
-    padding-left: 10px;
-    border: none;
-    border-radius: 10px;
-  }
-
   .saveButtons {
     margin-top: 20px;
     display: flex;
@@ -119,57 +35,5 @@
     justify-content: space-around;
     align-items: center;
     gap: 10px;
-  }
-
-  .clearButton {
-    width: 100px;
-    height: 35px;
-    border: none;
-    border-radius: 10px;
-    background-color: white;
-    color: black;
-  }
-
-  .clearButton:hover {
-    background-color: rgb(209, 209, 209);
-  }
-
-  .createButton {
-    width: 100px;
-    height: 35px;
-    border: none;
-    border-radius: 10px;
-    background-color: white;
-    color: black;
-  }
-
-  .createButton:hover {
-    background-color: rgb(209, 209, 209);
-  }
-
-  .okButton {
-    width: 100px;
-    height: 35px;
-    border: none;
-    border-radius: 10px;
-    color: black;
-    background-color: green;
-  }
-
-  .okButton:hover {
-    background-color: rgb(1, 99, 1);
-  }
-
-  .cancelButton {
-    width: 100px;
-    height: 35px;
-    border: none;
-    border-radius: 10px;
-    color: black;
-    background-color: red;
-  }
-
-  .cancelButton:hover {
-    background-color: rgb(179, 1, 1);
   }
 }

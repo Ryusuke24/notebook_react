@@ -1,32 +1,37 @@
 import React, { useState, useEffect } from "react";
+import InputTitle from "./InputTitle/InputTitle";
+import TextAreaText from "./TextAreaText/TextAreaText";
 import style from "./Content.module.css";
+import ClearButton from "./ClearButton/ClearButton";
+import CreateButton from "./CreateButton/CreateButton";
+import SaveButton from "./SaveButton/SaveButton";
+import CancelButton from "./CancelButton/CancelButton";
 
-function Content({ title, text, setText, setTitle }) {
+function Content({
+  isActiveId,
+  title,
+  text,
+  setText,
+  setTitle,
+  createNewNote,
+  saveEdit,
+  CancelEdit,
+}) {
   return (
     <section className={style.content}>
-      <input
-        className={style.input}
-        placeholder="enter title note..."
-        value={title}
-        onChange={event => setTitle(event.target.value)}
-      />
-      <textarea
-        className={style.textarea}
-        placeholder="enter note text..."
-        value={text}
-        onChange={event => setText(event.target.value)}
-      />
+      <InputTitle title={title} setTitle={setTitle} />
+      <TextAreaText text={text} setText={setText} />
       <div className={style.saveButtons}>
         {" "}
-        <button className={style.clearButton}>Clear note text</button>
-        <button className={style.createButton}>Create new note</button>
-        <button
-          className={style.okButton}
-          onClick={() => console.log(text, title)}
-        >
-          save edit
-        </button>
-        <button className={style.cancelButton}>cancel</button>
+        <ClearButton setText={setText} setTitle={setTitle} />
+        <CreateButton createNewNote={createNewNote} text={text} title={title} />
+        <SaveButton
+          isActiveId={isActiveId}
+          text={text}
+          title={title}
+          saveEdit={saveEdit}
+        />
+        <CancelButton CancelEdit={CancelEdit} />
       </div>
     </section>
   );

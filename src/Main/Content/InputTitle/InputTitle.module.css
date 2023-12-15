@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+  .input {
+    height: 5%;
+    padding-left: 10px;
+    border: none;
+    border-radius: 10px;
+  }
+}
+
+@media (min-width: 769px) {
+  .input {
+    height: 5%;
+    padding-left: 10px;
+    border: none;
+    border-radius: 10px;
+  }
+}
