@@ -10,6 +10,7 @@
   }
 
   .saveButtons {
+    margin-top: 20px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -29,7 +30,7 @@
   }
 
   .saveButtons {
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;

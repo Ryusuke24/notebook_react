@@ -1,0 +1,54 @@
+@media (max-width: 768px) {
+  .searchBar {
+    margin: 10px 10px 0 10px;
+    padding: 10px 0 10px 0;
+    border: 1px solid black;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    background-color: #212124;
+    color: white;
+  }
+
+  .label {
+    font-size: medium;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+
+  .input {
+    margin-left: 10px;
+    padding: 5px 5px 5px 5px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+  }
+}
+@media (min-width: 769px) {
+  .searchBar {
+    margin: 10px 10px 0 10px;
+    padding: 10px 0 10px 0;
+    border: 1px solid black;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    background-color: #212124;
+    color: white;
+  }
+
+  .label {
+    font-size: medium;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+
+  .input {
+    margin-left: 10px;
+    padding: 5px 5px 5px 5px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+  }
+}

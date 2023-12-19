@@ -12,8 +12,8 @@ function ClearButton({ setText, setTitle }) {
     >
       <svg
         fill="#000000"
-        width="32px"
-        height="32px"
+        width="28px"
+        height="28px"
         viewBox="0 0 1920 1920"
         xmlns="http://www.w3.org/2000/svg"
       >
