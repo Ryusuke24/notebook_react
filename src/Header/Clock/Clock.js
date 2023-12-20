@@ -44,7 +44,6 @@ function Clock() {
   useEffect(() => {
     const intervalID = setInterval(() => {
       updateTime();
-      console.info(seconds);
     }, 1000);
     return () => {
       clearInterval(intervalID);

@@ -17,6 +17,8 @@
     background-color: #212124;
 
     flex: 1 0 auto;
+    position: relative;
+    animation: beginMenu 2s ease;
   }
 
   .noteSection {
@@ -27,6 +29,8 @@
     border-radius: 10px;
     background-color: #212124;
     flex: 3 0 auto;
+    position: relative;
+    animation: beginContent 2s ease;
   }
 }
 
@@ -58,5 +62,23 @@
     border: none;
     border-radius: 10px;
     background-color: #212124;
+  }
+}
+
+@keyframes beginMenu {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 0;
+  }
+}
+
+@keyframes beginContent {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
   }
 }

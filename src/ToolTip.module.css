@@ -1,0 +1,29 @@
+@keyframes popup {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .toolTipComponent {
+    display: none;
+  }
+}
+@media (min-width: 769px) {
+  .toolTipComponent {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 50px;
+    z-index: 0;
+    position: absolute;
+    display: flex;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    animation: popup 1s ease-in-out;
+  }
+}

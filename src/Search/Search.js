@@ -5,7 +5,7 @@ function Search({ searchNote }) {
   return (
     <section className={style.searchBar}>
       <label className={style.label}>
-        Search by title/text:
+        Search by name of note:
         <input
           className={style.input}
           placeholder="search..."

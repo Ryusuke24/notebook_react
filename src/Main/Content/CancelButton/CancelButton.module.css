@@ -17,6 +17,12 @@
 }
 
 @media (min-width: 769px) {
+  .button {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+
   .cancelButton {
     width: 100px;
     height: 35px;

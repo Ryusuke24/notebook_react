@@ -32,15 +32,20 @@ function App() {
     JSON.parse(localStorage.getItem("notes")) || obj
   );
 
-  const [res, setRes] = useState(
-    JSON.parse(localStorage.getItem("notes")) || obj
-  );
+  const [res, setRes] = useState(notes);
+  const [search, setSearch] = useState(false);
 
   if (localStorage.getItem("notes") !== notes && notes.length !== 0) {
     localStorage.setItem("notes", JSON.stringify(notes));
   }
 
   function searchNote(value) {
+    if (value.length > 0) {
+      setSearch(true);
+    }
+    if (value.length === 0) {
+      setSearch(false);
+    }
     let copy = [...notes];
     setRes(
       copy.filter(elem =>
@@ -53,7 +58,14 @@ function App() {
     <div className={style.body}>
       <Header />
       <Search searchNote={searchNote} />
-      <Main res={res} setNotes={setNotes} notes={notes} setRes={setRes} />
+      <Main
+        res={res}
+        setNotes={setNotes}
+        notes={notes}
+        setRes={setRes}
+        search={search}
+        setSearch={setSearch}
+      />
       <Footer />
     </div>
   );
