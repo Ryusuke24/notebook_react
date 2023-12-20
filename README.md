@@ -8,16 +8,15 @@
 - Delete notes
 - Search notes by Name
 
-## Save tasks and add tasks at another day
-
+## Active buttons
 ![alt text](./images/1.gif)
-
+## Add new notes
 ![alt text](./images/2.gif)
-
+## Search notes by Name
 ![alt text](./images/3.gif)
-
+## Edit notes
 ![alt text](./images/4.gif)
-
+## Starting
 ![alt text](./images/5.gif)
 
 
